@@ -619,5 +619,50 @@ a:focus {
 }
 .img-presentation {
     height: 180px;
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.social {
+    border-radius: 30px;
+    position: relative;
+    width: 150px;
+    height: 32px;
+    box-shadow: inset -1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+.social .button {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+}
+
+  
+.social span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 30px;
+    display: block;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+    margin-left: 30px;
+    text-align: center;
+    width: 120px;
+}
+.facebook {
+    border: 1px solid #354970;
+    background: #fff url(../assets/facebook.png) no-repeat;
+    background-size: contain;
+}
+.twitter {
+    border: 1px solid #53d4ff;
+    background: #fff url(../assets/twitter.png) no-repeat;
+    background-size: contain;
+}
+.youtube {
+    border: 1px solid #E41E02;
+    background: #fff url(../assets/youtube.png) no-repeat;
+    background-size: contain;
 }
